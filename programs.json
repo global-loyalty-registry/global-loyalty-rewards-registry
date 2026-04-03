@@ -1,0 +1,3792 @@
+[
+  {
+    "slug": "united_mileageplus",
+    "program_name": "MileagePlus",
+    "brand_name": "United Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "UA"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^[a-zA-Z]{3}[0-9]{5}$",
+    "member_number_example": "ABC12345",
+    "tiers": [
+      "Silver",
+      "Gold",
+      "Platinum",
+      "1K"
+    ],
+    "program_url": "https://www.united.com/en/us/fly/mileageplus.html",
+    "enrollment_url": "https://www.united.com/en/us/fly/mileageplus/account/enroll.html",
+    "last_verified": "2026-03-13",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "delta_skymiles",
+    "program_name": "SkyMiles",
+    "brand_name": "Delta Air Lines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "DL"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Silver",
+      "Gold",
+      "Platinum",
+      "Diamond"
+    ],
+    "program_url": "https://www.delta.com/us/en/skymiles/overview",
+    "enrollment_url": "https://www.delta.com/us/en/skymiles/enroll",
+    "last_verified": "2026-03-13",
+    "alliance": "SkyTeam",
+    "active": true
+  },
+  {
+    "slug": "aa_aadvantage",
+    "program_name": "AAdvantage",
+    "brand_name": "American Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "AA"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^[A-Z0-9]{7}$",
+    "member_number_example": "8BK2W31",
+    "tiers": [
+      "Gold",
+      "Platinum",
+      "Plat Pro",
+      "Executive"
+    ],
+    "program_url": "https://www.aa.com/aadvantage/",
+    "enrollment_url": "https://www.aa.com/aadvantage/createAccount/createAccountForm.jsp",
+    "last_verified": "2026-03-13",
+    "alliance": "Oneworld",
+    "active": true
+  },
+  {
+    "slug": "ba_avios",
+    "program_name": "Executive Club",
+    "brand_name": "British Airways",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Avios",
+    "iata_icao_code": [
+      "BA"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{8}$",
+    "member_number_example": "12345678",
+    "tiers": [
+      "Blue",
+      "Bronze",
+      "Silver",
+      "Gold"
+    ],
+    "program_url": "https://www.britishairways.com/travel/execclub",
+    "enrollment_url": "https://www.britishairways.com/nx/b/account/en/nld/account/registration/?campaigncode=disnav",
+    "last_verified": "2026-03-13",
+    "alliance": "Oneworld",
+    "active": true
+  },
+  {
+    "slug": "southwest_rapidrewards",
+    "program_name": "Rapid Rewards",
+    "brand_name": "Southwest Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": [
+      "WN"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9,11}$",
+    "member_number_example": "00012345678",
+    "tiers": [
+      "A-List",
+      "A-List Pref"
+    ],
+    "program_url": "https://www.southwest.com/rapidrewards/",
+    "enrollment_url": "https://www.southwest.com/loyalty/enroll/",
+    "last_verified": "2026-03-13",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "alaska_atmos_rewards",
+    "program_name": "Atmos Rewards",
+    "brand_name": "Alaska Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": [
+      "AS"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Silver",
+      "Gold",
+      "Platinum",
+      "Titanium"
+    ],
+    "program_url": "https://www.alaskaair.com/atmosrewards",
+    "enrollment_url": "https://www.alaskaair.com/atmosrewards/enroll",
+    "last_verified": "2026-03-13",
+    "alliance": "Oneworld",
+    "active": true
+  },
+  {
+    "slug": "hawaiian_atmos_rewards",
+    "program_name": "Atmos Rewards",
+    "brand_name": "Hawaiian Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": [
+      "HA"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Silver",
+      "Gold",
+      "Platinum",
+      "Titanium"
+    ],
+    "program_url": "https://www.alaskaair.com/atmosrewards",
+    "enrollment_url": "https://www.alaskaair.com/atmosrewards/enroll",
+    "last_verified": "2026-03-13",
+    "alliance": "Oneworld",
+    "active": true
+  },
+  {
+    "slug": "aeromexico_rewards",
+    "program_name": "Aeromexico Rewards",
+    "brand_name": "Aeromexico",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": [
+      "AM"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Silver",
+      "Gold",
+      "Platinum",
+      "Titanium"
+    ],
+    "program_url": "https://www.aeromexico.com/en-us/aeromexico-rewards",
+    "enrollment_url": "https://www.aeromexico.com/en-us/signup/",
+    "last_verified": "2026-03-13",
+    "alliance": "SkyTeam",
+    "active": true
+  },
+  {
+    "slug": "latam_pass",
+    "program_name": "LATAM Pass",
+    "brand_name": "LATAM",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "LA"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{13}$",
+    "member_number_example": "1234567890123",
+    "tiers": [
+      "Gold",
+      "Gold Plus",
+      "Platinum",
+      "Black",
+      "Black Signature"
+    ],
+    "program_url": "https://latampass.latam.com/en_us/",
+    "enrollment_url": "https://www.latamairlines.com/us/en/registration",
+    "last_verified": "2026-03-13",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "aerolineas_plus",
+    "program_name": "Aerolineas Plus",
+    "brand_name": "Aerolineas Argentinas",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "AR"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{8}$",
+    "member_number_example": "12345678",
+    "tiers": [
+      "Gold",
+      "Platinum",
+      "Diamond"
+    ],
+    "program_url": "https://www.aerolineas.com.ar/condiciones-de-uso",
+    "enrollment_url": "https://www.aerolineas.com.ar/arplus/pre-registro",
+    "last_verified": "2026-03-16",
+    "alliance": "SkyTeam",
+    "active": true
+  },
+  {
+    "slug": "gol_smiles",
+    "program_name": "Smiles",
+    "brand_name": "GOL",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "G3"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Smiles",
+      "Silver",
+      "Gold",
+      "Diamond"
+    ],
+    "program_url": "https://www.voegol.com.br/en-us/information/smiles-loyalty-program",
+    "enrollment_url": "https://www.smiles.com.br/cadastro",
+    "last_verified": "2026-03-16",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "jal_mileage_bank",
+    "program_name": "JAL Mileage Bank",
+    "brand_name": "Japan Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "JL"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "JMB Crystal",
+      "JMB Sapphire",
+      "JGC Premier",
+      "JMB Diamond"
+    ],
+    "program_url": "https://www.jal.co.jp/jp/en/jmb/index01.html#apply",
+    "enrollment_url": "https://www.jal.co.jp/jp/en/jmb/info/transfer.html",
+    "last_verified": "2026-03-17",
+    "alliance": "Oneworld",
+    "active": true
+  },
+  {
+    "slug": "qantas_frequent_flyer",
+    "program_name": "Qantas Frequent Flyer",
+    "brand_name": "Qantas",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": [
+      "QF"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Bronze",
+      "Silver",
+      "Gold",
+      "Platinum",
+      "Platinum One"
+    ],
+    "program_url": "https://www.qantas.com/us/en/frequent-flyer.html",
+    "enrollment_url": "https://www.qantas.com/us/en/frequent-flyer/discover-and-join/join.html?int_cam=us%3Afrequent-flyer%3Ahero%3Ann%3Aen%3Ann",
+    "last_verified": "2026-03-17",
+    "alliance": "Oneworld",
+    "active": true
+  },
+  {
+    "slug": "lufthansa_group_miles_and_more",
+    "program_name": "Miles & More",
+    "brand_name": "Lufthansa",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "LH",
+      "LX",
+      "OS",
+      "SN",
+      "EW",
+      "4Y",
+      "EN"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{15}$",
+    "member_number_example": "123456789012345",
+    "tiers": [
+      "Blue",
+      "Silver",
+      "Gold",
+      "Black",
+      "Lifetime"
+    ],
+    "program_url": "https://www.lufthansa.com/us/en/miles-and-more",
+    "enrollment_url": "https://account.miles-and-more.com/web/row/en/enrolment.html?",
+    "last_verified": "2026-03-22",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "singapore_krisflyer",
+    "program_name": "KrisFlyer",
+    "brand_name": "Singapore Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "SQ"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "KrisFlyer",
+      "KrisFlyer Elite Silver",
+      "KrisFlyer Elite Gold"
+    ],
+    "program_url": "https://www.singaporeair.com/en_UK/us/ppsclub-krisflyer/krisflyer/",
+    "enrollment_url": "https://www.singaporeair.com/en_UK/ppsclub-krisflyer/registration-form/",
+    "last_verified": "2026-03-22",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "air_new_zealand_koro",
+    "program_name": "Koru",
+    "brand_name": "Air New Zealand",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": [
+      "NZ"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{8}$",
+    "member_number_example": "12345678",
+    "tiers": [
+      "Koru Bronze",
+      "Koru Silver",
+      "Koru Gold",
+      "Koru Platinum",
+      "Koru Black"
+    ],
+    "program_url": "https://www.airnewzealand.co.nz/koru-loyalty-programme",
+    "enrollment_url": "https://identity.airnewzealand.com/Customerairnz.onmicrosoft.com/B2C_1A_AIRNZ_SU/oauth2/v2.0/authorize?client_id=6e5b0cdf-5b29-47cb-bf27-2522f3f978b6&nonce=defaultNonce&redirect_uri=https%3A%2F%2Fwww.airnewzealand.co.nz&scope=openid&response_type=id_token&prompt=login&channel=default&_gl=1*1y5tvhf*_gcl_au*MjE4MjI0NjcxLjE3NzQyMDc5NzU.*FPAU*MjE4MjI0NjcxLjE3NzQyMDc5NzU.*_ga*NDE3NTAwMDk1LjE3NzQyMDc5Nzg.*_ga_7W0V730RP5*czE3NzQyMDc5NzgkbzEkZzEkdDE3NzQyMDk0MDUkajE1JGwwJGgyMTA2ODIwMjIz",
+    "last_verified": "2026-03-22",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "emirates_skywards",
+    "program_name": "Emirates Skywards",
+    "brand_name": "Emirates Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "EK"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Skywards Blue",
+      "Skywards Silver",
+      "Skywards Gold",
+      "Skywards Platinum"
+    ],
+    "program_url": "https://www.emirates.com/cz/english/skywards/",
+    "enrollment_url": "https://www.emirates.com/cz/english/skywards/registration/",
+    "last_verified": "2026-03-22",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "etihad_guest",
+    "program_name": "Etihad Guest",
+    "brand_name": "Etihad",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "EY"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{12}$",
+    "member_number_example": "123456789012",
+    "tiers": [
+      "Bronze",
+      "Silver",
+      "Gold",
+      "Platinum",
+      "Emerald"
+    ],
+    "program_url": "https://www.etihad.com/en/etihadguest/tiers-and-benefits#:~:text=Tiers%20at%20a%20glance%20We%20know%20that,move%20forward%2C%20with%20greater%20flexibility%20and%20ease.",
+    "enrollment_url": "https://www.etihad.com/en/etihadguest/tiers-and-benefits",
+    "last_verified": "2026-03-22",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "qatar_privilege_club",
+    "program_name": "Privilege Club",
+    "brand_name": "Qatar Airways",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": [
+      "QR"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9,10}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Burgundy",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://www.qatarairways.com/en-qa/Privilege-Club.html?iid=ALL99602720",
+    "enrollment_url": "https://www.qatarairways.com/en-qa/Privilege-Club/join-now.html?portalUpgrade=false.html",
+    "last_verified": "2026-03-22",
+    "alliance": "Oneworld",
+    "active": true
+  },
+  {
+    "slug": "china_airlines_dynasty_flyer",
+    "program_name": "Dynasty Flyer",
+    "brand_name": "China Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "CI"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Dynasty",
+      "Gold",
+      "Emerald",
+      "Paragon"
+    ],
+    "program_url": "https://milesbringsmiles.china-airlines.com/en/mileage-rewards.html#B",
+    "enrollment_url": "https://dynasty-flyer.china-airlines.com/member/register",
+    "last_verified": "2026-03-22",
+    "alliance": "SkyTeam",
+    "active": true
+  },
+  {
+    "slug": "air_china_phoenixmiles",
+    "program_name": "PhoenixMiles",
+    "brand_name": "Air China",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "CA",
+      "ZH",
+      "SC",
+      "NX",
+      "CA",
+      "CA",
+      "KY",
+      "CA"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{12}$",
+    "member_number_example": "123456789012",
+    "tiers": [
+      "PhoenixMiles Silver",
+      "PhoenixMiles Gold",
+      "PhoenixMiles Platinum",
+      "PhoenixMiles Kids",
+      "PhoenixMiles Lifetime Platinum"
+    ],
+    "program_url": "https://ffp.airchina.com.cn/appen/en/plan-en.html",
+    "enrollment_url": "https://www.phoenixmiles.com/",
+    "last_verified": "2026-03-22",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "air_france_klm_flying_blue",
+    "program_name": "Flying Blue",
+    "brand_name": "Air France/KLM",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "AF",
+      "KL",
+      "SB"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Explorer",
+      "Silver",
+      "Gold",
+      "Platinum",
+      "Ultimate"
+    ],
+    "program_url": "https://www.flyingblue.us/en/programme/more-info/status",
+    "enrollment_url": "https://identity.airfranceklm.com/enrol/flyingblue",
+    "last_verified": "2026-03-25",
+    "alliance": "SkyTeam",
+    "active": true
+  },
+  {
+    "slug": "air_canada_aeroplan",
+    "program_name": "Aeroplan",
+    "brand_name": "Air Canada",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "AC"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "25K",
+      "35K",
+      "50K",
+      "75K",
+      "Super Elite"
+    ],
+    "program_url": "https://www.aircanada.com/ca/en/aco/home/aeroplan.html#/",
+    "enrollment_url": "https://www.aircanada.com/aeroplan/member/enrolment?lang=en-CA",
+    "last_verified": "2026-03-25",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "cathay_pacific_asia_miles",
+    "program_name": "Asia Miles",
+    "brand_name": "Cathay Pacific",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "CX"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Green",
+      "Silver",
+      "Gold",
+      "Diamond"
+    ],
+    "program_url": "https://www.cathaypacific.com/cx/en_US/membership/asia-miles.html",
+    "enrollment_url": "https://www.cathaypacific.com/cx/en_US/membership/sign-up.html",
+    "last_verified": "2026-03-25",
+    "alliance": "Oneworld",
+    "active": true
+  },
+  {
+    "slug": "turkish_miles_smiles",
+    "program_name": "Miles & Smiles",
+    "brand_name": "Turkish Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "TK"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Classic",
+      "Classic Plus",
+      "Elite",
+      "Elite Plus"
+    ],
+    "program_url": "https://www.turkishairlines.com/en-int/miles-and-smiles/",
+    "enrollment_url": "https://www.turkishairlines.com/en-int/miles-and-smiles/sign-up-form/",
+    "last_verified": "2026-03-25",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "ana_mileage_club",
+    "program_name": "Mileage Club",
+    "brand_name": "ANA",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "NH"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Bronze",
+      "Platinum",
+      "Diamond"
+    ],
+    "program_url": "https://www.ana.co.jp/en/us/amc/",
+    "enrollment_url": "https://www.ana.co.jp/en/us/amc/join-amc/",
+    "last_verified": "2026-03-25",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "iberia_plus",
+    "program_name": "Iberia Plus",
+    "brand_name": "Iberia",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "IB"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{8,9}$",
+    "member_number_example": "012345678",
+    "tiers": [
+      "Clasica",
+      "Plata",
+      "Oro",
+      "Platino",
+      "Platino Prime",
+      "Infinita",
+      "Infinita Prime"
+    ],
+    "program_url": "https://www.iberia.com/us/faqs/iberiaplus/Avios/",
+    "enrollment_url": "https://www.iberia.com/us/iberiaplus/register/",
+    "last_verified": "2026-03-25",
+    "alliance": "Oneworld",
+    "active": true
+  },
+  {
+    "slug": "jetblue_trueblue",
+    "program_name": "TrueBlue",
+    "brand_name": "JetBlue",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "B6"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Mosaic1",
+      "Mosaic2",
+      "Mosaic3",
+      "Mosaic4"
+    ],
+    "program_url": "https://www.jetblue.com/trueblue",
+    "enrollment_url": "https://www.jetblue.com/trueblue/signup",
+    "last_verified": "2026-03-25",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "avianca_lifemiles",
+    "program_name": "LifeMiles",
+    "brand_name": "Avianca",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "AV"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Red Plus",
+      "Silver",
+      "Gold",
+      "Diamond"
+    ],
+    "program_url": "https://www.lifemiles.com/",
+    "enrollment_url": "https://www.lifemiles.com/creatucuenta/datos-personales",
+    "last_verified": "2026-03-25",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "korean_air_skypass_club",
+    "program_name": "Skypass Club",
+    "brand_name": "Korean Air",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "KE"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{12}$",
+    "member_number_example": "123456789012",
+    "tiers": [
+      "Morning Calm Club",
+      "Morning Calm Select",
+      "Morning Calm Premium",
+      "Million Miler Club"
+    ],
+    "program_url": "https://www.koreanair.com/contents/skypass/benefits/tier/general",
+    "enrollment_url": "https://www.koreanair.com/register/verification",
+    "last_verified": "2026-03-25",
+    "alliance": "SkyTeam",
+    "active": true
+  },
+  {
+    "slug": "air_india_maharaja_club",
+    "program_name": "Maharaja Club",
+    "brand_name": "Air India",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "AI"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Red",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://www.airindia.com/in/en/maharaja-club/about.html",
+    "enrollment_url": "https://www.airindia.com/in/en/register.html",
+    "last_verified": "2026-03-26",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "ethiopian_shebamiles",
+    "program_name": "ShebaMiles",
+    "brand_name": "Ethiopian Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "ET"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{11}$",
+    "member_number_example": "12345678901",
+    "tiers": [
+      "Blue",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://shebamiles.ethiopianairlines.com/miles/earn-miles",
+    "enrollment_url": "https://shebamiles.ethiopianairlines.com/miles/earn-miles",
+    "last_verified": "2026-03-26",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "thai_orchid_plus",
+    "program_name": "Orchid Plus",
+    "brand_name": "Thai Airways",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "TG"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^([A-Z]{2})?[0-9]{5,9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Member",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://www.thaiairways.com/en-th/content/about-royal-orchid-plus/",
+    "enrollment_url": "https://www.thaiairways.com/en-th/sign-up/",
+    "last_verified": "2026-03-26",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "malaysia_enrich",
+    "program_name": "Enrich",
+    "brand_name": "Malaysia Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "MH"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Blue",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://enrich.malaysiaairlines.com/enrich.html",
+    "enrollment_url": "https://member.malaysiaairlines.com/3ea44ec0-f1d5-4cf7-bcb2-d3694e8c379e/oauth2/v2.0/authorize?p=B2C_1A_QUICK_SIGNUP&client_id=b3d91790-e11d-4862-875b-28d9ba941af7&redirect_uri=https://api.malaysiaairlines.com/LCP-NOAUTH/dpMfaCallback&scope=openid+b3d91790-e11d-4862-875b-28d9ba941af7+offline_access&response_type=token&prompt=login&response_mode=query&state=z9BNLw81evWeQ3B1fxUN0Y60f9zP6yDnlRMkNxXDrvX0UJRrCp2zZSE7q6QipbyOXVfg0UW1yK8e0h5vpdoZGrlqebXmmWsUu9ZTlemaMz_xmkepCSUqixO2rusltfZA&promo=ENR2025",
+    "last_verified": "2026-03-26",
+    "alliance": "Oneworld",
+    "active": true
+  },
+  {
+    "slug": "virgin_atlantic_flying_club",
+    "program_name": "Flying Club",
+    "brand_name": "Virgin Atlantic",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "VS"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Red",
+      "Silver",
+      "Gold"
+    ],
+    "program_url": "https://www.virginatlantic.com/en-US/flying-club",
+    "enrollment_url": "https://www.virginatlantic.com/flying-club/join",
+    "last_verified": "2026-03-26",
+    "alliance": "SkyTeam",
+    "active": true
+  },
+  {
+    "slug": "virgin_australia_velocity_frequent_flyer",
+    "program_name": "Velocity Frequent Flyer",
+    "brand_name": "Virgin Australia",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "VA"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Red",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://www.velocityfrequentflyer.com/",
+    "enrollment_url": "https://www.velocityfrequentflyer.com/",
+    "last_verified": "2026-03-30",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "scandinavian_airlines_eurobonus",
+    "program_name": "EuroBonus",
+    "brand_name": "Scandinavian Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "SK"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Standard",
+      "Silver",
+      "Gold",
+      "Diamond"
+    ],
+    "program_url": "https://www.flysas.com/en/eurobonus",
+    "enrollment_url": "https://www.flysas.com/en/eurobonus",
+    "last_verified": "2026-03-30",
+    "alliance": "SkyTeam",
+    "active": true
+  },
+  {
+    "slug": "finnair_plus",
+    "program_name": "Finnair Plus",
+    "brand_name": "Finnair",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "AY"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Basic",
+      "Silver",
+      "Gold",
+      "Platinum",
+      "Platinum Lumo"
+    ],
+    "program_url": "https://www.finnair.com/en/finnair-plus",
+    "enrollment_url": "https://www.finnair.com/en/finnair-plus",
+    "last_verified": "2026-03-30",
+    "alliance": "Oneworld",
+    "active": true
+  },
+  {
+    "slug": "tap_miles_and_go_club",
+    "program_name": "Miles&Go Club",
+    "brand_name": "Tap Air Portugal",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "TP"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Club Basic",
+      "Club Extra",
+      "Club Top",
+      "Club Platinum",
+      "Club Platinum Plus"
+    ],
+    "program_url": "https://www.flytap.com/en-hr/miles-and-go",
+    "enrollment_url": "https://www.flytap.com/en-hr/miles-and-go",
+    "last_verified": "2026-03-30",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "westjet_rewards",
+    "program_name": "WestJet Rewards",
+    "brand_name": "WestJet",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Dollars",
+    "iata_icao_code": [
+      "WS"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Teal",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://www.westjet.com/en-ca/rewards/join",
+    "enrollment_url": "https://www.westjet.com/en-ca/rewards/join",
+    "last_verified": "2026-03-30",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "aer_lingus_aerclub",
+    "program_name": "AerClub",
+    "brand_name": "Aer Lingus",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "EI"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{16}$",
+    "member_number_example": "1234567890123456",
+    "tiers": [
+      "Green",
+      "Silver",
+      "Gold",
+      "Platinum",
+      "Concierge"
+    ],
+    "program_url": "https://www.aerlingus.com/aerclub/",
+    "enrollment_url": "https://www.aerlingus.com/app/registration#setup",
+    "last_verified": "2026-03-30",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "el_al_matmid",
+    "program_name": "Matmid Frequent Flyer Program",
+    "brand_name": "El Al",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "LY"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{7,9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Silver",
+      "Gold",
+      "Platinum",
+      "Top Platinum"
+    ],
+    "program_url": "https://www.elal.com/eng/frequentflyer/get-to-know",
+    "enrollment_url": "https://www.elal.com/eng/registration?utm_source=elal&utm_medium=banner&utm_campaign=join_ffp_web_free_en_button_up_matmid_nfc&utm_content=0&utm_term=0&cid=s:el%7Cm:ban%7Ccp:join_ffp_web_free_en_button_up%7Cct:matmid%7Cau:nfc%7Cco:0%7Ctrm:0",
+    "last_verified": "2026-03-30",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "frontier_miles",
+    "program_name": "Frontier Miles",
+    "brand_name": "Frontier Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Low Cost",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "F9"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{11}$",
+    "member_number_example": "12345678901",
+    "tiers": [
+      "Silver",
+      "Gold",
+      "Platinum",
+      "Diamond"
+    ],
+    "program_url": "https://www.flyfrontier.com/frontiermiles?mobile=true#:~:text=Frontier%20Miles%20is%20the%20most%20rewarding%20loyalty%20program%20in%20the%20sky!&text=Make%20the%20most%20of%20your,exclusive%20benefits%20and%20FREE*%20flights!",
+    "enrollment_url": "https://booking.flyfrontier.com/FrontierMiles/Register?_ga=2.224943513.2038650874.1774884160-315023422.1774884160",
+    "last_verified": "2026-03-30",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "free_spirit",
+    "program_name": "Free Spirit",
+    "brand_name": "Spirit Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Low Cost",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "NK"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Basic",
+      "Silver",
+      "Gold"
+    ],
+    "program_url": "https://www.spirit.com/free-spirit",
+    "enrollment_url": "https://www.spirit.com/free-spirit",
+    "last_verified": "2026-03-30",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "saa_voyager",
+    "program_name": "SAA Voyager",
+    "brand_name": "South African Airways",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "SV"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Blue",
+      "Silver",
+      "Gold",
+      "Platinum",
+      "Lifetime Platinum"
+    ],
+    "program_url": "https://voyager.flysaa.com/",
+    "enrollment_url": "https://voyager.flysaa.com/join-voyager",
+    "last_verified": "2026-03-30",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "saudia_alfursan",
+    "program_name": "Saudia Alfursan",
+    "brand_name": "Saudia",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "SA"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{7,10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Green",
+      "Silver",
+      "Gold"
+    ],
+    "program_url": "https://www.saudia.com/loyalty",
+    "enrollment_url": "https://www.saudia.com/en-SA/Register",
+    "last_verified": "2026-03-30",
+    "alliance": "SkyTeam",
+    "active": true
+  },
+  {
+    "slug": "egyptair_plus",
+    "program_name": "Egyptair Plus",
+    "brand_name": "Egyptair",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "MS"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Blue",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://www.egyptairplus.com/",
+    "enrollment_url": "https://www.egyptairplus.com/signUp",
+    "last_verified": "2026-03-30",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "oman_air_sinbad",
+    "program_name": "Sinbad",
+    "brand_name": "Oman Air",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "WY"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{8,10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Blue",
+      "Silver",
+      "Gold"
+    ],
+    "program_url": "https://sindbad.omanair.com/",
+    "enrollment_url": "https://member.omanair.com/register?lang=en",
+    "last_verified": "2026-03-30",
+    "alliance": "Oneworld",
+    "active": true
+  },
+  {
+    "slug": "royal_air_maroc_safar_flyer",
+    "program_name": "Safar Flyer",
+    "brand_name": "Royal Air Maroc",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "AT"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9,11}$",
+    "member_number_example": "12345678901",
+    "tiers": [
+      "Blue",
+      "Silver",
+      "Gold",
+      "Ambassador"
+    ],
+    "program_url": "https://www.royalairmaroc.com/ae-en/loyalty",
+    "enrollment_url": "https://www.royalairmaroc.com/ae-en/register",
+    "last_verified": "2026-03-30",
+    "alliance": "Oneworld",
+    "active": true
+  },
+  {
+    "slug": "indigo_blue_chip",
+    "program_name": "Blue Chip",
+    "brand_name": "IndiGo Air",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "6E"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Blue 1",
+      "Blue 2",
+      "Blue 3"
+    ],
+    "program_url": "https://www.goindigo.in/loyalty",
+    "enrollment_url": "https://www.goindigo.in/loyalty",
+    "last_verified": "2026-03-30",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "club_jetstar",
+    "program_name": "Club Jetstar",
+    "brand_name": "Jetstar",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "JQ"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{8,10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Member"
+    ],
+    "program_url": "https://www.jetstar.com/au/en/club-jetstar",
+    "enrollment_url": "https://booking.jetstar.com/au/en/booking/clubjetstar?pid=clubjetstar-page-join",
+    "last_verified": "2026-03-30",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "africa_world_airlines_medaaseloyalty",
+    "program_name": "MedaaseLoyalty",
+    "brand_name": "Africa World Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "AW"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Nagode Ruby",
+      "Shidaa Emerald",
+      "Tipagya Gold",
+      "Akpe Platinum"
+    ],
+    "program_url": "https://flyafricaworld.com/frequent-flyer",
+    "enrollment_url": "https://loyalty-aw.kiusys.net/ff-applet/login/",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "air_algerie_plus",
+    "program_name": "Air Algerie Plus",
+    "brand_name": "Air Algerie",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "AH"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Djurdjura",
+      "Chélia",
+      "Tahat"
+    ],
+    "program_url": "https://airalgerie.dz/air-algerie-plus/avantages-membre/",
+    "enrollment_url": "https://airalgerie.dz/register/",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "air_astana_nomad_club",
+    "program_name": "Nomad Club",
+    "brand_name": "Air Astana",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "K6"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Blue",
+      "Silver",
+      "Gold",
+      "Diamond"
+    ],
+    "program_url": "https://airastana.com/global-en/nomad-club/nomad-club-programme",
+    "enrollment_url": "https://airastana.com/global-en",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "air_baltic_club",
+    "program_name": "Air Baltic Club",
+    "brand_name": "Air Baltic",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "BT"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Club",
+      "Executive",
+      "VIP"
+    ],
+    "program_url": "https://www.airbalticclub.com/int-en/",
+    "enrollment_url": "https://www.airbaltic.com/en/create-profile",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "air_botswana_teemane_club",
+    "program_name": "Teemane Club",
+    "brand_name": "Air Botswana",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "BP"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{8,10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Blue",
+      "Silver",
+      "Gold",
+      "Diamond"
+    ],
+    "program_url": "https://airbotswana.co.bw/welcome-teemane-club",
+    "enrollment_url": "https://ffbp.loyaltyplus.aero/bployalty/register.jsf",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "air_cambodia_angkorwards",
+    "program_name": "AngkorWards",
+    "brand_name": "Air Cambodia",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "K6"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{8,10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Member",
+      "Silver",
+      "Gold"
+    ],
+    "program_url": "https://www.aircambodia.com/en/",
+    "enrollment_url": "https://www.aircambodia.com/en/",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "air_cote_divoir_smiles",
+    "program_name": "sMiles",
+    "brand_name": "Air Côte d'Ivoir",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "HF"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "3 Stars",
+      "4 Stars",
+      "5 Stars",
+      "Diamond"
+    ],
+    "program_url": "https://www.aircotedivoire.com/en/smiles-en/smiles-program/",
+    "enrollment_url": "https://vre.frequentflyer.aero/cranelogin?code=EnrollCheck&lang=en",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "air_europa_suma",
+    "program_name": "Suma",
+    "brand_name": "Air Europa",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "UX"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Suma",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://loyalty.aireuropa.com/",
+    "enrollment_url": "https://www.aireuropa.com/es/es/signup?_gl=1*1iyceeb*_gcl_au*MTY0NTExNTcyNS4xNzc0OTcwODgz*_ga*MjExMTgzNzcxMi4xNzc0OTcwODgz",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "air_greenland_club_timmisa",
+    "program_name": "Club Timmisa",
+    "brand_name": "Air Greenland",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "GL"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{8}$",
+    "member_number_example": "12345678",
+    "tiers": [
+      "Member"
+    ],
+    "program_url": "https://www.airgreenland.com/become-a-member-of-club-timmisa/",
+    "enrollment_url": "https://www.airgreenland.dk/bliv-club-timmisa-medlem",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "air_moana_club_moana",
+    "program_name": "Club Moana",
+    "brand_name": "Air Moana",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "NM"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{8}$",
+    "member_number_example": "^\\d{8}$",
+    "tiers": [
+      "Member"
+    ],
+    "program_url": "https://en.airmoana.com/en",
+    "enrollment_url": "https://fo-latam.ttinteractive.com/Zenith/FrontOffice/(S(7c59e0c5fda74948b5796bf68ae3e942))/airmoana/en-GB/Customer/Create?ReturnUrl=%2FZenith%2FFrontOffice%2F%28S%287c59e0c5fda74948b5796bf68ae3e942%29%29%2Fairmoana%2Fen-GB%2FCustomer%2FHome%3F__cnv%3DQtY2A",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "air_moldova_club",
+    "program_name": "Air Moldova Club",
+    "brand_name": "Air Moldova",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "9U"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{8}$",
+    "member_number_example": "12345678",
+    "tiers": [
+      "Member",
+      "Silver",
+      "Gold"
+    ],
+    "program_url": "https://www.airmoldova.md/about-amc-en/",
+    "enrollment_url": "https://www.airmoldova.md/about-amc-en/",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": false
+  },
+  {
+    "slug": "air_senegal_teranga",
+    "program_name": "Teranga",
+    "brand_name": "Air Senegal",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "HC"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{11}$",
+    "member_number_example": "12345678901",
+    "tiers": [
+      "Teranga",
+      "Silver",
+      "Gold",
+      "Diamond"
+    ],
+    "program_url": "https://teranga.flyairsenegal.com/hcloyalty/index.jsf",
+    "enrollment_url": "https://teranga.flyairsenegal.com/hcloyalty/register.jsf",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "air_serbia_etihad_guest",
+    "program_name": "Etihad Guest",
+    "brand_name": "Air Serbia",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "JU"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{12}$",
+    "member_number_example": "123456789012",
+    "tiers": [
+      "Bronze",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://www.airserbia.com/en/air-serbia-etihad-guest-program",
+    "enrollment_url": "https://www.etihad.com/en/etihadguest/our-partners/airlines",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "aircalin_flying_blue",
+    "program_name": "Flying Blue",
+    "brand_name": "Aircalin",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "SB"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Explorer",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://www.aircalin.com/en/flying-blue",
+    "enrollment_url": "https://www.flyingblue.fr/en/programme?activeTab=introduction&country=AU",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "airlink_skybucks",
+    "program_name": "Skybucks",
+    "brand_name": "Airlink",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "4Z"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Member"
+    ],
+    "program_url": "https://skybucks.flyairlink.com/en/za/",
+    "enrollment_url": "https://skybucksb2c.flyairlink.com/skybucks.onmicrosoft.com/oauth2/v2.0/authorize?client_id=9d26fe3e-9e4c-46d0-9d74-f14e36f77568&redirect_uri=https://api-loyalty.skybucks.co.za/v1/security/authorization/openidconnect/authorize/delegated-token&response_type=code&state=aERzeVgyX0tDVmpHSjRJVjBiLlp4eWVkVW91VlAwUENGZUgya35LNzRaeGZI_en-GB_false_&nonce=aERzeVgyX0tDVmpHSjRJVjBiLlp4eWVkVW91VlAwUENGZUgya35LNzRaeGZI&scope=openid%20offline_access%20profile%20phone%20email&p=B2C_1_SignUp_SignIn_Email&prompt=login&display=page&code_challenge_method=S256&code_challenge=fu7iw4KWRYddv_3EZPS6PCAuGesn60hQFJL8OvD2fqE&ui_locales=en-GB",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "asiana_club",
+    "program_name": "Asiana Club",
+    "brand_name": "Asiana",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "OZ",
+      "BX",
+      "RX"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Silver",
+      "Gold",
+      "Diamond",
+      "Diamond Plus",
+      "Platinum"
+    ],
+    "program_url": "https://flyasiana.com/C/US/EN/contents/membership-system-registration",
+    "enrollment_url": "https://flyasiana.com/I/US/EN/JoinMembership.do",
+    "last_verified": "2026-03-31",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "asky_club",
+    "program_name": "ASKY Club",
+    "brand_name": "ASKY Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "KP"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Brown",
+      "Silver",
+      "Gold",
+      "Black"
+    ],
+    "program_url": "https://ffkp.loyaltyplus.aero/kployalty/index.jsf",
+    "enrollment_url": "https://ffkp.loyaltyplus.aero/kployalty/register.jsf",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "azul_fidelidade",
+    "program_name": "Azul Fidelidade",
+    "brand_name": "Azul",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "9N"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9,11}$",
+    "member_number_example": "12345678901",
+    "tiers": [
+      "Azul",
+      "Sapphire",
+      "Diamond"
+    ],
+    "program_url": "https://www.voeazul.com.br/br/pt/programa-fidelidade",
+    "enrollment_url": "https://www.voeazul.com.br/br/pt/cadastro.html",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "bangkok_air_flyerbonus",
+    "program_name": "FlyerBonus",
+    "brand_name": "Bangkok Air",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "PG"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{8}$",
+    "member_number_example": "12345678",
+    "tiers": [
+      "Priority",
+      "Premier"
+    ],
+    "program_url": "https://flyerbonus.bangkokair.com/",
+    "enrollment_url": "https://flyerbonus.bangkokair.com/register",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "copa_airlines_connectmiles",
+    "program_name": "ConnectMiles",
+    "brand_name": "Copa Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "CM",
+      "P5"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Silver",
+      "Gold",
+      "Platinum",
+      "Presidential"
+    ],
+    "program_url": "https://www.copaair.com/es-gs/connectmiles/",
+    "enrollment_url": "https://www.copaair.com/es-gs/enrollment/",
+    "last_verified": "2026-03-31",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "fiji_airways_tabua_club",
+    "program_name": "Tabua Club",
+    "brand_name": "Fiji Airways",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "FJ",
+      "DQ"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Tabua Club",
+      "Tabua Club Plus"
+    ],
+    "program_url": "https://www.fijiairways.com/en-eu/tabua",
+    "enrollment_url": "https://www.fijiairways.com/en-us/tabua-club/join-or-renew-membership/",
+    "last_verified": "2026-03-31",
+    "alliance": "Oneworld",
+    "active": true
+  },
+  {
+    "slug": "flydubai_skywards",
+    "program_name": "Skywards",
+    "brand_name": "Flydubai",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "FZ"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9,10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Blue",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://www.flydubai.com/en/skywards/about-skywards",
+    "enrollment_url": "https://skywards.flydubai.com/en/login",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "garuda_miles",
+    "program_name": "GarudaMiles",
+    "brand_name": "Garuda",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "GA",
+      "QG"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Blue",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://www.garuda-indonesia.com/garudamiles/en/tentang-garudamiles/index",
+    "enrollment_url": "https://www.garuda-indonesia.com/garudamiles/en/enrollment",
+    "last_verified": "2026-03-31",
+    "alliance": "SkyTeam",
+    "active": true
+  },
+  {
+    "slug": "gulf_air_falconflyer",
+    "program_name": "FalconFlyer",
+    "brand_name": "Gulf Air",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "GF"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{8}$",
+    "member_number_example": "12345678",
+    "tiers": [
+      "Blue",
+      "Silver",
+      "Gold",
+      "Black"
+    ],
+    "program_url": "https://www.gulfair.com/falconflyer/about-falconflyer",
+    "enrollment_url": "https://falconflyer.gulfair.com/#/member/register",
+    "last_verified": "2026-03-31",
+    "alliance": "SkyTeam",
+    "active": true
+  },
+  {
+    "slug": "hainan_airlines_fortune_wings_club",
+    "program_name": "Fortune Wings Club",
+    "brand_name": "Hainan Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "HU",
+      "HX",
+      "CN",
+      "GX",
+      "8L",
+      "JD"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Member",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://ffp.hnair.com/FFPClub/en/home/index.html",
+    "enrollment_url": "https://ffp.hnair.com/FFPClub/member/register?lang=en",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "porter_airlines_viporter",
+    "program_name": "VIPorter",
+    "brand_name": "Porter Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "PD"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Member",
+      "Passport",
+      "Venture",
+      "Ascent",
+      "First"
+    ],
+    "program_url": "https://www.flyporter.com/en/about-porter/viporter",
+    "enrollment_url": "https://www.flyporter.com/en/viporter/registration",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "hunnu_air_hunnu_club",
+    "program_name": "Hunnu Club",
+    "brand_name": "Hunnu Air",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "MR"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{8,9}$",
+    "member_number_example": "12345678",
+    "tiers": [
+      "Member",
+      "Silver",
+      "Gold"
+    ],
+    "program_url": "https://ffp.hnair.com/FFPClub/en/home/index.html",
+    "enrollment_url": "https://ffp.hnair.com/FFPClub/member/register?lang=en",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "iclandair_saga_club",
+    "program_name": "Saga Club",
+    "brand_name": "Icelandair",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "FI"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Saga Club",
+      "Saga Silver",
+      "Saga Gold"
+    ],
+    "program_url": "https://www.icelandair.com/frequent-flyer/",
+    "enrollment_url": "https://my-account.icelandair.com/?step=SIGN_UP&_ga=2.120102600.1197494359.1774984255-278048881.1774984251",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "intercaribbean_cacique_rewards",
+    "program_name": "Cacique Rewards",
+    "brand_name": "interCaribbean",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "JY"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{7,10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Member"
+    ],
+    "program_url": "https://www.intercaribbean.com/cacique/cacique-rewards.html",
+    "enrollment_url": "https://reservations.intercaribbean.com/VARS/public/fqtv/FQTVRegisterbs.aspx?VARSSessionID=b799d666-613b-4c8c-a7b2-ae64d7059940&_gl=1*14v9nt9*_gcl_au*NDAwNjYyOTY3LjE3NzQ5ODQ1ODU.*_ga*MTg1MDUxOTIwOC4xNzc0OTg0NTg1*_ga_X2END0HYLB*czE3NzQ5ODQ1ODUkbzEkZzEkdDE3NzQ5ODQ2MDQkajQxJGwwJGgw&_ga=2.13615409.78609012.1774984586-1850519208.1774984585",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "ita_airways_volare",
+    "program_name": "Volare",
+    "brand_name": "ITA Airways",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "AZ"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{8}$",
+    "member_number_example": "12345678",
+    "tiers": [
+      "Smart",
+      "Plus",
+      "Premium",
+      "Executive"
+    ],
+    "program_url": "https://www.ita-airways.com/ar/es/support/volare-program",
+    "enrollment_url": "https://www.volare.ita-airways.com/myloyalty/s/registration?language=en_US",
+    "last_verified": "2026-03-31",
+    "alliance": "SkyTeam",
+    "active": true
+  },
+  {
+    "slug": "jeju_air_refresh_point",
+    "program_name": "Refresh Point",
+    "brand_name": "Jeju Air",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "7C"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Silver",
+      "Silver Plus",
+      "Gold",
+      "VIP"
+    ],
+    "program_url": "https://www.jejuair.net/en/memberBenefit/refreshPoint/main.do",
+    "enrollment_url": "https://www.jejuair.net/en/member/memberJoin/clauseAgree.do",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "jetsmart_smartpass",
+    "program_name": "Smartpass",
+    "brand_name": "JetSMART",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "JA",
+      "JW"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^[A-Z0-9]{7}$",
+    "member_number_example": "8BK2W31",
+    "tiers": [
+      "Gold",
+      "Platinum",
+      "Plat Pro",
+      "Executive"
+    ],
+    "program_url": "https://www.aa.com/aadvantage/",
+    "enrollment_url": "https://www.aa.com/aadvantage/createAccount/createAccountForm.jsp",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "juneyao_air_club",
+    "program_name": "Juneyao Air Club",
+    "brand_name": "Juneyao Air",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "HO",
+      "9C"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10,12}$",
+    "member_number_example": "123456789012",
+    "tiers": [
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://global.juneyaoair.com/memberIntro/ruyiClub",
+    "enrollment_url": "https://global.juneyaoair.com/register",
+    "last_verified": "2026-03-31",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "kenya_airwais_asante_rewards",
+    "program_name": "Asante Rewards",
+    "brand_name": "Kenya Airways",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "KQ"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Ruby",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://asante.kenya-airways.com/",
+    "enrollment_url": "https://asante.kenya-airways.com/enrollment/quick",
+    "last_verified": "2026-03-31",
+    "alliance": "SkyTeam",
+    "active": true
+  },
+  {
+    "slug": "kuwait_airways_oasis_club",
+    "program_name": "Oasis Club",
+    "brand_name": "Kuwait Airways",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "KU"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Blue",
+      "Silver",
+      "Gold"
+    ],
+    "program_url": "https://kuwaitairways.com/en/Oasis",
+    "enrollment_url": "https://kuwaitairways.com/en/oasis/Members/Pages/signup.aspx",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "la_compagnie_mycompagnie",
+    "program_name": "MyCompagnie",
+    "brand_name": "La Compagnie",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "B0"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{8}$",
+    "member_number_example": "12345678",
+    "tiers": [
+      "Blue",
+      "Silver",
+      "Gold"
+    ],
+    "program_url": "https://www.lacompagnie.com/en/about/my-compagnie",
+    "enrollment_url": "https://booking.lacompagnie.com/Zenith/FrontOffice/(S(9059fe14163847278de2f53e326ae1d2))/lacompagnie/en-GB/Customer/Create?ReturnUrl=%2FZenith%2FFrontOffice%2F%28S%289059fe14163847278de2f53e326ae1d2%29%29%2Flacompagnie%2Ffr-FR%2FCustomer%2FHome&_gl=1*wrmhrc*_ga*MTY4OTU3MTkyNS4xNzc0OTg2NDYx*_ga_78M52RB1F1*czE3NzQ5ODY0NjAkbzEkZzAkdDE3NzQ5ODY0NzEkajYwJGwwJGg0MzEzNzQ4MA..*_gcl_au*MTY4NTExMTMyMy4xNzc0OTg2NDcy",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "lam_mozambique_flamingo_club",
+    "program_name": "Flamingo Club",
+    "brand_name": "LAM Mozambique",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "TM"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Classic",
+      "Silver",
+      "Gold"
+    ],
+    "program_url": "https://lam.frequentflyer.aero/index.php?lang=en",
+    "enrollment_url": "https://lam.frequentflyer.aero/index.php?option=com_cranelogin#DynamicEnrollment",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "lao_airlines_champa_muang_lao",
+    "program_name": "Champa Muang Lao",
+    "brand_name": "Lao Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "QV"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{8}$",
+    "member_number_example": "12345678",
+    "tiers": [
+      "Silver",
+      "Gold"
+    ],
+    "program_url": "https://laoairlines.com/en/reward/",
+    "enrollment_url": "https://laoairlines.intelisys.ca/login?_gl=1*19fshhw*_gcl_au*MjEzMzU2NzkxMy4xNzc0OTg2OTgw*_ga*MTY2MTA1MDM0NS4xNzc0OTg2OTc3*_ga_PNBLK7SQKK*czE3NzQ5ODY5NzkkbzEkZzEkdDE3NzQ5ODY5OTIkajQ3JGwwJGgw",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "lot_polish_miles_and_more",
+    "program_name": "Miles & More",
+    "brand_name": "LOT Polish",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "LO"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{15}$",
+    "member_number_example": "123456789012345",
+    "tiers": [
+      "FTL",
+      "Senator",
+      "HON Circle"
+    ],
+    "program_url": "https://www.lot.com/us/en/explore/miles-and-more?gclsrc=aw.ds&utm_medium=search&utm_source=google&utm_campaign=brand-exact&utm_content=serp&utm_term=wo_en_none&hid=99_01&s_kwcid=AL!8589!3!582387423961!e!!g!lot%20polish%20airlines&gad_source=1&gad_campaignid=1415594350&gclid=Cj0KCQjw4a3OBhCHARIsAChaqJPAZJVrIfiKsOT5TDnNpgikKEQ_0Caas11v26gcXWrc-3NDCOdDZVAaAhQ4EALw_wcB",
+    "enrollment_url": "https://account.miles-and-more.com/web/row/en/enrolment.html?",
+    "last_verified": "2026-03-31",
+    "alliance": "Star Alliance",
+    "active": true
+  },
+  {
+    "slug": "luxair_miles_and_more",
+    "program_name": "Miles & More",
+    "brand_name": "Luxair",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "LG"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{15}$",
+    "member_number_example": "123456789012345",
+    "tiers": [
+      "FTL",
+      "Senator",
+      "HON Circle"
+    ],
+    "program_url": "https://www.luxair.lu/en/offers/miles-more/",
+    "enrollment_url": "https://www.miles-and-more.com/row/fr/program/at-a-glance.html",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "miat_mongolian_blue_sky_mongolia",
+    "program_name": "Blue Sky Mongolia",
+    "brand_name": "MIAT Mongolian",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "OM"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Silver",
+      "Gold"
+    ],
+    "program_url": "https://blueskymongolia.frequentflyer.aero/pub/",
+    "enrollment_url": "https://blueskymongolia.frequentflyer.aero/pub/#/main/not-authenticated/enrollment",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "middle_east_air_cedar_miles",
+    "program_name": "Cedar Miles",
+    "brand_name": "Middle East Air",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "ME"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{12}$",
+    "member_number_example": "123456789012",
+    "tiers": [
+      "Blue",
+      "Silver",
+      "Gold",
+      "Pres. Club"
+    ],
+    "program_url": "https://www.mea.com.lb/english/cedar-miles/about-cedar-miles",
+    "enrollment_url": "https://www.mea.com.lb/english/cedar-miles/join-cedar-miles",
+    "last_verified": "2026-03-31",
+    "alliance": "SkyTeam",
+    "active": true
+  },
+  {
+    "slug": "pakistan_intl_awards_plus",
+    "program_name": "Awards Plus",
+    "brand_name": "Pakistan Int'l",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "PK"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Emerald",
+      "Sapphire",
+      "Diamond"
+    ],
+    "program_url": "https://www.piac.com.pk/loyalty-programs/awards-rewards",
+    "enrollment_url": "https://book-pia.crane.aero/ibe/loyalty/signup",
+    "last_verified": "2026-03-31",
+    "alliance": "SkyTeam",
+    "active": true
+  },
+  {
+    "slug": "pegasus_air_bolbol",
+    "program_name": "BolBol",
+    "brand_name": "Pegasus Air",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Low Cost",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "PC"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10,15}$",
+    "member_number_example": "123456789012345",
+    "tiers": [
+      "Standard",
+      "Premium"
+    ],
+    "program_url": "https://www.flypgs.com/en/bolbol",
+    "enrollment_url": "https://web.flypgs.com/signup",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "royal_jordanian_royal_club",
+    "program_name": "Royal Club",
+    "brand_name": "Royal Jordanian",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "RJ"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{12}$",
+    "member_number_example": "123456789012",
+    "tiers": [
+      "Bronze",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://www.rj.com/en/royal-club/royal-club",
+    "enrollment_url": "https://www.rj.com/en/royal-club/royal-club/register",
+    "last_verified": "2026-03-31",
+    "alliance": "Oneworld",
+    "active": true
+  },
+  {
+    "slug": "rwandair_dream_miles",
+    "program_name": "Dream Miles",
+    "brand_name": "RwandAir",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "WB"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{7}$",
+    "member_number_example": "1234567",
+    "tiers": [
+      "Emerald",
+      "Silver",
+      "Gold",
+      "Diamond"
+    ],
+    "program_url": "https://www.rwandair.com/dream-miles/loyalty-info-page/",
+    "enrollment_url": "https://booking.rwandair.com/en/registration",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "s7_airlines_priority",
+    "program_name": "S7 Priority",
+    "brand_name": "S7 Airlines",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "S7"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Classic",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://www.s7.ru/en/priority-statuses/",
+    "enrollment_url": "https://www.s7.ru/profile/registration?redirect=https://www.s7.ru/s7-priority/&type=full",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "scoot_krisflyer",
+    "program_name": "KrisFlyer",
+    "brand_name": "Scoot",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "TR"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Member",
+      "Silver",
+      "Gold"
+    ],
+    "program_url": "https://www.flyscoot.com/en/discover/escape-with-scoot/krisflyer",
+    "enrollment_url": "https://www.flyscoot.com/en/discover/escape-with-scoot/krisflyer",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "starlux_cosmile",
+    "program_name": "Cosmile",
+    "brand_name": "Starlux",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "JX"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Traveler",
+      "Adventurer",
+      "Explorer",
+      "Insighter"
+    ],
+    "program_url": "https://www.starlux-airlines.com/en-JP/cosmile/cosmile",
+    "enrollment_url": "https://www.starlux-airlines.com/en-US/member",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "vietnam_air_lotusmile",
+    "program_name": "Lotusmile",
+    "brand_name": "Vietnam Air",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "VN"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Silver",
+      "Titanium",
+      "Gold",
+      "Platinum",
+      "Million Miler"
+    ],
+    "program_url": "https://www.vietnamairlines.com/us/en/lotusmiles",
+    "enrollment_url": "https://www.vietnamairlines.com/go/en/lotusmiles/enroll-new",
+    "last_verified": "2026-03-31",
+    "alliance": "SkyTeam",
+    "active": true
+  },
+  {
+    "slug": "xiamen_air_egret_miles",
+    "program_name": "Egret Miles",
+    "brand_name": "Xiamen Air",
+    "sub_brands": null,
+    "category": "Airline",
+    "sub_category": "Full Service",
+    "currency_name": "Miles",
+    "iata_icao_code": [
+      "MF"
+    ],
+    "gds_code": null,
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Egret",
+      "Silver",
+      "Gold",
+      "Black Diamond"
+    ],
+    "program_url": "https://ffp.xiamenair.com/en-US/_EgretClub/AboutClub.html",
+    "enrollment_url": "https://ffp.xiamenair.com/en-US/Member/RegisterStep1",
+    "last_verified": "2026-03-31",
+    "alliance": "SkyTeam",
+    "active": true
+  },
+  {
+    "slug": "marriott_bonvoy",
+    "program_name": "Marriott Bonvoy",
+    "brand_name": "Marriott International",
+    "sub_brands": [
+      "Ritz-Carlton",
+      "Sheraton",
+      "Westin",
+      "W Hotels",
+      "Courtyard",
+      "Fairfield"
+    ],
+    "category": "Hotel",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "MC",
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Silver",
+      "Gold",
+      "Platinum",
+      "Titanium"
+    ],
+    "program_url": "https://www.marriott.com/loyalty/",
+    "enrollment_url": "https://www.marriott.com/loyalty/createAccount/",
+    "last_verified": "2026-01-20",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "hilton_honors",
+    "program_name": "Hilton Honors",
+    "brand_name": "Hilton",
+    "sub_brands": [
+      "Waldorf Astoria",
+      "Conrad",
+      "DoubleTree",
+      "Hampton by Hilton",
+      "Hilton Garden Inn"
+    ],
+    "category": "Hotel",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "HH",
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "987654321",
+    "tiers": [
+      "Silver",
+      "Gold",
+      "Diamond"
+    ],
+    "program_url": "https://www.hilton.com/en/hiltonhonors/",
+    "enrollment_url": "https://www.hilton.com/en/hiltonhonors/enroll/",
+    "last_verified": "2026-01-20",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "world_of_hyatt",
+    "program_name": "World of Hyatt",
+    "brand_name": "Hyatt",
+    "sub_brands": [
+      "Park Hyatt",
+      "Grand Hyatt",
+      "Hyatt Regency",
+      "Andaz",
+      "Hyatt Place",
+      "Hyatt House"
+    ],
+    "category": "Hotel",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "HY",
+    "member_number_regex": "^\\d{7,9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Discoverist",
+      "Explorist",
+      "Globalist"
+    ],
+    "program_url": "https://world.hyatt.com/",
+    "enrollment_url": "https://world.hyatt.com/content/gp/en/enroll.html",
+    "last_verified": "2026-03-18",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "ihg_rewards",
+    "program_name": "IHG One Rewards",
+    "brand_name": "IHG",
+    "sub_brands": [
+      "InterContinental",
+      "Regent",
+      "Six Senses",
+      "Kimpton",
+      "Hotel Indigo",
+      "voco",
+      "HUALUXE",
+      "Crowne Plaza",
+      "EVEN Hotels",
+      "Holiday Inn",
+      "Holiday Inn Express",
+      "Holiday Inn Resort",
+      "Holiday Inn Club Vacations",
+      "avid Hotels",
+      "Garner Hotels",
+      "Ruby Hotels",
+      "Staybridge Suites",
+      "Candlewood Suites",
+      "Atwell Suites",
+      "Iberostar Beachfront Resorts",
+      "Vignette Collection"
+    ],
+    "category": "Hotel",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "IC",
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "100234567",
+    "tiers": [
+      "Silver",
+      "Gold",
+      "Platinum",
+      "Diamond"
+    ],
+    "program_url": "https://www.ihg.com/rewardsclub/",
+    "enrollment_url": "https://www.ihg.com/rewardsclub/us/en/enrollment/",
+    "last_verified": "2026-03-18",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "accor_all",
+    "program_name": "ALL - Accor Live Limitless",
+    "brand_name": "Accor",
+    "sub_brands": [
+      "Raffles",
+      "Orient Express",
+      "Fairmont",
+      "Sofitel Legend",
+      "SO/ Hotels & Resorts",
+      "Sofitel",
+      "MGallery",
+      "Emblems Collection",
+      "Pullman",
+      "Swissôtel",
+      "Mövenpick",
+      "Angsana",
+      "Banyan Tree",
+      "Rixos",
+      "25hours Hotels",
+      "Mondrian",
+      "Delano",
+      "SLS Hotels",
+      "Hyde Hotels",
+      "The Hoxton",
+      "Mama Shelter",
+      "Novotel",
+      "Mercure",
+      "Adagio",
+      "Grand Mercure",
+      "TRIBE Hotels",
+      "ibis",
+      "ibis Styles",
+      "ibis budget",
+      "Jo&Joe",
+      "greet Hotels",
+      "Mantra Hotels",
+      "Peppers Hotels",
+      "Art Series Hotels",
+      "Gleneagles"
+    ],
+    "category": "Hotel",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "AC",
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Classic",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://all.accor.com/",
+    "enrollment_url": "https://all.accor.com/loyalty-program/enroll/",
+    "last_verified": "2026-03-18",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "wyndham_rewards",
+    "program_name": "Wyndham Rewards",
+    "brand_name": "Wyndham Hotels & Resorts",
+    "sub_brands": [
+      "Wyndham Grand",
+      "Wyndham Hotels & Resorts",
+      "Wyndham Alltra",
+      "Wyndham Garden",
+      "Registry Collection Hotels",
+      "Trademark Collection",
+      "Dolce Hotels and Resorts",
+      "La Quinta by Wyndham",
+      "Vienna House by Wyndham",
+      "TRYP by Wyndham",
+      "Ramada by Wyndham",
+      "Ramada Encore by Wyndham",
+      "Baymont by Wyndham",
+      "Wingate by Wyndham",
+      "Hawthorn Extended Stay by Wyndham",
+      "AmericInn by Wyndham",
+      "Microtel by Wyndham",
+      "Days Inn by Wyndham",
+      "Super 8 by Wyndham",
+      "Howard Johnson by Wyndham",
+      "Travelodge by Wyndham",
+      "Esplendor by Wyndham",
+      "Dazzler by Wyndham"
+    ],
+    "category": "Hotel",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "WY",
+    "member_number_regex": "^\\d{9,10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Blue",
+      "Gold",
+      "Platinum",
+      "Diamond"
+    ],
+    "program_url": "https://www.wyndhamhotels.com/wyndham-rewards/how-it-works?ICID=IN%3AWR%3A20190408%3ANTLE4%3AHOWITWORKS%3ANA%3ANA",
+    "enrollment_url": "https://www.wyndhamhotels.com/wyndham-rewards/join",
+    "last_verified": "2026-03-18",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "jin_jiang_rewards",
+    "program_name": "Jin Jiang Rewards",
+    "brand_name": "Jin Jiang International",
+    "sub_brands": [
+      "J. Hotel",
+      "Yan Garden Hotels",
+      "Jin Jiang Hotels",
+      "Kunlun Hotels",
+      "Metropolo",
+      "Lavande Hotels",
+      "Vienna International Hotels",
+      "Jinjiang Inn",
+      "7 Days Inn"
+    ],
+    "category": "Hotel",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "JJ",
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Blue",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://en.bestwehotel.com/serviceAgreement",
+    "enrollment_url": "https://en.bestwehotel.com/register",
+    "last_verified": "2026-03-18",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "h_rewards",
+    "program_name": "H Rewards",
+    "brand_name": "H World Group",
+    "sub_brands": [
+      "Steigenberger Icons",
+      "Steigenberger Hotels & Resorts",
+      "MAXX Hotel",
+      "Jaz in the City",
+      "IntercityHotel",
+      "Zleep Hotels",
+      "JI Hotel",
+      "Grand JI Hotel",
+      "Crystal Orange Hotel",
+      "Orange Hotel",
+      "HanTing Hotel",
+      "Elan Hotel",
+      "Starway Hotel",
+      "Manxin Hotel",
+      "Madison Hotel",
+      "CitiGO",
+      "Hi Inn",
+      "Ni Hao Hotel",
+      "Blossom House",
+      "Joya Hotel",
+      "Song Hotels"
+    ],
+    "category": "Hotel",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "EW",
+    "member_number_regex": "^\\d{16}$",
+    "member_number_example": "1234567890123456",
+    "tiers": [
+      "Star",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://hrewards.com/en/loyalty",
+    "enrollment_url": "https://hrewards.com/en/account/registration",
+    "last_verified": "2026-03-18",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "radisson_rewards",
+    "program_name": "Radisson Rewards",
+    "brand_name": "Radisson Hotel Group",
+    "sub_brands": [
+      "Radisson Collection",
+      "Radisson Blu",
+      "Radisson",
+      "Radisson RED",
+      "Radisson Individuals",
+      "Park Plaza",
+      "Park Inn by Radisson",
+      "Country Inn & Suites",
+      "prizeotel"
+    ],
+    "category": "Hotel",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "CW",
+    "member_number_regex": "^\\d{16}$",
+    "member_number_example": "1234567890123457",
+    "tiers": [
+      "Club",
+      "Premium",
+      "VIP"
+    ],
+    "program_url": "https://www.radissonhotels.com/en-us/rewards/benefits",
+    "enrollment_url": "https://www.radissonhotels.com/en-us/radisson-rewards/join",
+    "last_verified": "2026-03-30",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "oyo_wizard",
+    "program_name": "OYO Wizard",
+    "brand_name": "OYO",
+    "sub_brands": [
+      "OYO Rooms",
+      "Townhouse",
+      "Sunday Hotels",
+      "Palette",
+      "Motel 6",
+      "Studio 6"
+    ],
+    "category": "Hotel",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "OY",
+    "member_number_regex": "^\\d{10,13}$",
+    "member_number_example": "919876543210",
+    "tiers": [
+      "Blue",
+      "Silver",
+      "Gold"
+    ],
+    "program_url": "https://www.oyorooms.com/wizard/",
+    "enrollment_url": "https://www.oyorooms.com/login?retUrl=%2Fwizard%3F",
+    "last_verified": "2026-03-18",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "bth_rewards",
+    "program_name": "BTH Rewards",
+    "brand_name": "BTG Homeinns",
+    "sub_brands": [
+      "Home Inn",
+      "Yitel",
+      "Yitel Premium",
+      "Homeinnplus",
+      "Homeinn Selected",
+      "Motel 168",
+      "Fairyland Hotel",
+      "UrCove"
+    ],
+    "category": "Hotel",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "HI",
+    "member_number_regex": "^\\d{12,16}$",
+    "member_number_example": "123456789012",
+    "tiers": [
+      "E-member",
+      "Silver",
+      "Gold",
+      "White Gold",
+      "Diamond"
+    ],
+    "program_url": "https://www.bthhotels.com/en/Member/MemberIndex",
+    "enrollment_url": "https://www.bthhotels.com/en/Member/MemberIndex",
+    "last_verified": "2026-03-18",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "louvre_flavours",
+    "program_name": "Flavours",
+    "brand_name": "Louvre Hotels Group",
+    "sub_brands": [
+      "Royal Tulip",
+      "Golden Tulip",
+      "Tulip Inn",
+      "Campanile",
+      "Kyriad",
+      "Première Classe",
+      "Sarovar Hotels"
+    ],
+    "category": "Hotel",
+    "sub_category": "Full Service",
+    "currency_name": "Discounts",
+    "iata_icao_code": null,
+    "gds_code": "GT",
+    "member_number_regex": "^\\d{10,12}$",
+    "member_number_example": "123456789012",
+    "tiers": [],
+    "program_url": "https://www.flavoursbenefit.com/en-us/your-benefits",
+    "enrollment_url": "https://www.flavoursbenefit.com/register",
+    "last_verified": "2026-03-30",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "choice_privileges",
+    "program_name": "Choice Privileges",
+    "brand_name": "Choice Hotels",
+    "sub_brands": [
+      "Ascend Hotel Collection",
+      "Cambria Hotels",
+      "Radisson Collection",
+      "Radisson Blu",
+      "Radisson",
+      "Radisson RED",
+      "Radisson Individuals",
+      "Park Plaza",
+      "Comfort",
+      "Quality Inn",
+      "Sleep Inn",
+      "Clarion",
+      "Clarion Pointe",
+      "Country Inn & Suites by Radisson",
+      "Park Inn by Radisson",
+      "Radisson Inn & Suites",
+      "MainStay Suites",
+      "Suburban Studios",
+      "WoodSpring Suites",
+      "Everhome Suites",
+      "Econo Lodge",
+      "Rodeway Inn"
+    ],
+    "category": "Hotel",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "EC",
+    "member_number_regex": "^\\d{11}$",
+    "member_number_example": "12345678901",
+    "tiers": [
+      "Member",
+      "Gold",
+      "Platinum",
+      "Diamond",
+      "Titanium"
+    ],
+    "program_url": "https://www.choicehotels.com/choice-privileges/new-rewards",
+    "enrollment_url": "https://www.choicehotels.com/choice-privileges/account/enroll",
+    "last_verified": "2026-03-30",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "hertz_gold",
+    "program_name": "Gold Plus Rewards",
+    "brand_name": "Hertz",
+    "sub_brands": null,
+    "category": "Car",
+    "sub_category": "Rental",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "ZE",
+    "member_number_regex": "^\\d{7,10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Gold",
+      "Five Star",
+      "President's Circle"
+    ],
+    "program_url": "https://www.hertz.com/rentacar/hertzgoldplusrewards/",
+    "enrollment_url": "https://www.hertz.com/rentacar/hertzgoldplusrewards/enroll/",
+    "last_verified": "2026-01-20",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "avis_preferred",
+    "program_name": "Avis Preferred",
+    "brand_name": "Avis",
+    "sub_brands": null,
+    "category": "Car",
+    "sub_category": "Rental",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "ZD",
+    "member_number_regex": "^[A-Z0-9]{6,9}$",
+    "member_number_example": "1AW23R",
+    "tiers": [
+      "Preferred",
+      "Preferred Plus",
+      "President's Club"
+    ],
+    "program_url": "https://www.avis.com/en/avis-preferred",
+    "enrollment_url": "https://www.avis.com/en/avis-preferred/enroll",
+    "last_verified": "2026-01-20",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "national_emerald",
+    "program_name": "Emerald Club",
+    "brand_name": "National Car Rental",
+    "sub_brands": null,
+    "category": "Car",
+    "sub_category": "Rental",
+    "currency_name": "Credits",
+    "iata_icao_code": null,
+    "gds_code": "ZL",
+    "member_number_regex": "^\\d{7,9}$",
+    "member_number_example": "1234567",
+    "tiers": [
+      "Emerald",
+      "Ruby",
+      "Emerald Exec"
+    ],
+    "program_url": "https://www.nationalcar.com/en/emerald-club.html",
+    "enrollment_url": "https://www.nationalcar.com/en/emerald-club/enroll.html",
+    "last_verified": "2026-01-20",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "alamo_insiders",
+    "program_name": "Alamo Insiders",
+    "brand_name": "Alamo",
+    "sub_brands": null,
+    "category": "Car",
+    "sub_category": "Rental",
+    "currency_name": "Discounts",
+    "iata_icao_code": null,
+    "gds_code": "AL",
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [],
+    "program_url": "https://www.alamo.com/en/alamo-insiders.html",
+    "enrollment_url": "https://www.alamo.com/en/alamo-insiders.html",
+    "last_verified": "2026-03-19",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "enterprise_plus",
+    "program_name": "Enterprise Plus",
+    "brand_name": "Enterprise",
+    "sub_brands": null,
+    "category": "Car",
+    "sub_category": "Rental",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "ET",
+    "member_number_regex": "^[A-Z0-9]{7,10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Plus",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://www.enterprise.com/en/loyalty.html",
+    "enrollment_url": "https://www.enterprise.com/en/enroll.html",
+    "last_verified": "2026-03-19",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "budget_fastbreak",
+    "program_name": "Budget Fastbreak",
+    "brand_name": "Budget",
+    "sub_brands": null,
+    "category": "Car",
+    "sub_category": "Rental",
+    "currency_name": "Discounts",
+    "iata_icao_code": null,
+    "gds_code": "ZD",
+    "member_number_regex": "^[A-Z0-9]{6,7}$",
+    "member_number_example": "1AW23R7",
+    "tiers": [],
+    "program_url": "https://www.budget.com/en/loyalty-profile/fastbreak#:~:text=What%20is%20Budget%20Fastbreak?,Enroll%20&%20Earn%20Budget%20Bucks",
+    "enrollment_url": "https://www.budget.com/en/loyalty-profile/budget-bucks",
+    "last_verified": "2026-03-19",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "sixt_card",
+    "program_name": "Sixt Card",
+    "brand_name": "Sixt",
+    "sub_brands": null,
+    "category": "Car",
+    "sub_category": "Rental",
+    "currency_name": "Discounts",
+    "iata_icao_code": null,
+    "gds_code": "SX",
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Express",
+      "Gold",
+      "Platinum",
+      "Diamond"
+    ],
+    "program_url": "https://www.sixt.co.uk/pages/loyaltyprogram/",
+    "enrollment_url": "https://www.sixt.co.uk/pages/loyaltyprogram/",
+    "last_verified": "2026-03-20",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "car_inc_membership",
+    "program_name": "CAR Inc Membership",
+    "brand_name": "China Auto Rental",
+    "sub_brands": null,
+    "category": "Car",
+    "sub_category": "Rental",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "CC",
+    "member_number_regex": "^\\d{11}$",
+    "member_number_example": "12345678901",
+    "tiers": [
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": null,
+    "enrollment_url": null,
+    "last_verified": "2026-03-20",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "lotte_rent_a_car",
+    "program_name": "Lotte Rent-a-car",
+    "brand_name": "Lotte Rental",
+    "sub_brands": null,
+    "category": "Car",
+    "sub_category": "Rental",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "LO",
+    "member_number_regex": "^\\d{6,12}$",
+    "member_number_example": "123456",
+    "tiers": [
+      "General",
+      "Gold",
+      "Double Gold"
+    ],
+    "program_url": "https://www.lotterentacar.net/hp/eng/members/benefits/info.do",
+    "enrollment_url": "https://www.lotterentacar.net/hp/eng/member/rentacar/join.do",
+    "last_verified": "2026-03-20",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "localiza_fidelidade",
+    "program_name": "Localiza Fidelidade",
+    "brand_name": "Localiza",
+    "sub_brands": null,
+    "category": "Car",
+    "sub_category": "Rental",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "LL",
+    "member_number_regex": "^\\d{8}$",
+    "member_number_example": "12345678",
+    "tiers": [
+      "Green",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://www.localiza.com/others/en-us/loyalty",
+    "enrollment_url": "https://www.localiza.com/others/en-us/register/personal-data",
+    "last_verified": "2026-03-20",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "amex_membership_rewards",
+    "program_name": "Membership Rewards",
+    "brand_name": "American Express",
+    "sub_brands": null,
+    "category": "Credit",
+    "sub_category": "Card",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": null,
+    "member_number_regex": "^\\d{10,12}$",
+    "member_number_example": "12345678901",
+    "tiers": [],
+    "program_url": "https://www.americanexpress.com/en-us/rewards/membership-rewards/",
+    "enrollment_url": "https://www.americanexpress.com/en-us/credit-cards/",
+    "last_verified": "2026-01-15",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "chase_ultimate_rewards",
+    "program_name": "Ultimate Rewards",
+    "brand_name": "Chase",
+    "sub_brands": null,
+    "category": "Credit",
+    "sub_category": "Card",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": null,
+    "member_number_regex": "^\\d{10,20}$",
+    "member_number_example": "12345678901234",
+    "tiers": [],
+    "program_url": "https://ultimaterewards.com/",
+    "enrollment_url": "https://creditcards.chase.com/",
+    "last_verified": "2026-01-15",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "citi_thankyou",
+    "program_name": "ThankYou Rewards",
+    "brand_name": "Citi",
+    "sub_brands": null,
+    "category": "Credit",
+    "sub_category": "Card",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": null,
+    "member_number_regex": "^\\d{10,16}$",
+    "member_number_example": "1234567890123456",
+    "tiers": [],
+    "program_url": "https://www.citi.com/credit-cards/thankyou-rewards/",
+    "enrollment_url": "https://www.citi.com/credit-cards/compare/",
+    "last_verified": "2026-01-15",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "capital_one_miles",
+    "program_name": "Capital One Miles",
+    "brand_name": "Captial One",
+    "sub_brands": null,
+    "category": "Credit",
+    "sub_category": "Card",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": null,
+    "member_number_regex": "^\\d{16}$",
+    "member_number_example": "1234567890123456",
+    "tiers": [],
+    "program_url": "https://www.capitalone.com/credit-cards/rewards/",
+    "enrollment_url": "https://www.capitalone.com/apply/credit-cards/preapprove/miles/",
+    "last_verified": "2026-03-20",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "hsbc_premier_rewards",
+    "program_name": "HSBC Premier Rewards",
+    "brand_name": "HSBC",
+    "sub_brands": null,
+    "category": "Credit",
+    "sub_category": "Card",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": null,
+    "member_number_regex": "^\\d{16}$",
+    "member_number_example": "1234567890123456",
+    "tiers": [],
+    "program_url": "https://www.hsbc.co.uk/current-accounts/products/premier/",
+    "enrollment_url": "https://www.hsbc.co.uk/current-accounts/products/premier/",
+    "last_verified": "2026-03-20",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "hdfc_rewards",
+    "program_name": "HDFC Rewards",
+    "brand_name": "HDFC Bank",
+    "sub_brands": null,
+    "category": "Credit",
+    "sub_category": "Card",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": null,
+    "member_number_regex": "^\\d{14,16}$",
+    "member_number_example": "12345678901234",
+    "tiers": [],
+    "program_url": "https://www.hdfc.bank.in/credit-cards/services/simple-rewards-program",
+    "enrollment_url": "https://www.hdfc.bank.in/credit-cards/services/simple-rewards-program",
+    "last_verified": "2026-03-20",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "axis_edge_miles",
+    "program_name": "Axis EDGE Miles",
+    "brand_name": "Axis Bank",
+    "sub_brands": null,
+    "category": "Credit",
+    "sub_category": "Card",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": null,
+    "member_number_regex": "^\\d{16}$",
+    "member_number_example": "1234567890123456",
+    "tiers": [],
+    "program_url": "https://www.axis.bank.in/miles-transfer",
+    "enrollment_url": "https://www.axis.bank.in/miles-transfer",
+    "last_verified": "2026-03-20",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "royal_caribbean_crown_anchor",
+    "program_name": "Crown & Anchor Society",
+    "brand_name": "Royal Caribbean",
+    "sub_brands": null,
+    "category": "Cruise",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "RC",
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Gold",
+      "Platinum",
+      "Emerald",
+      "Diamond",
+      "Diamond Plus",
+      "Pinnacle Club"
+    ],
+    "program_url": "https://www.royalcaribbean.com/crown-anchor-society",
+    "enrollment_url": "https://www.royalcaribbean.com/account/signin",
+    "last_verified": "2026-03-24",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "norwegian_latitude_rewards",
+    "program_name": "Latitudes Rewards",
+    "brand_name": "Norwegian Cruise Line",
+    "sub_brands": null,
+    "category": "Cruise",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "NC",
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Bronze",
+      "Silver",
+      "Gold",
+      "Platinum",
+      "Sapphire",
+      "Diamond",
+      "Ambassador"
+    ],
+    "program_url": "https://www.ncl.com/latitudes-rewards",
+    "enrollment_url": "https://www.ncl.com/latitudes-rewards",
+    "last_verified": "2026-03-24",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "msc_voyagers_club",
+    "program_name": "MSC Voyagers Club",
+    "brand_name": "MSC",
+    "sub_brands": null,
+    "category": "Cruise",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "MS",
+    "member_number_regex": "^\\d{7}$",
+    "member_number_example": "1234567",
+    "tiers": [
+      "Classic",
+      "Silver",
+      "Gold",
+      "Black",
+      "Blue Diamond"
+    ],
+    "program_url": "https://www.msccruises.com/int/manage-booking/msc-voyagers-club",
+    "enrollment_url": "https://www.msccruises.com/int/manage-booking/msc-voyagers-club",
+    "last_verified": "2026-03-24",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "princess_captains_circle",
+    "program_name": "Captain's Circle",
+    "brand_name": "Princess Cruises",
+    "sub_brands": null,
+    "category": "Cruise",
+    "sub_category": "Full Service",
+    "currency_name": "Days",
+    "iata_icao_code": null,
+    "gds_code": "PC",
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Gold",
+      "Ruby",
+      "Platinum",
+      "Elite"
+    ],
+    "program_url": "https://book.princess.com/captaincircle/membershipBenefits.page",
+    "enrollment_url": "https://www.princess.com/my-princess/create-account/",
+    "last_verified": "2026-03-24",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "celebrity_captains_club",
+    "program_name": "Captain's Club",
+    "brand_name": "Celebrity Cruises",
+    "sub_brands": null,
+    "category": "Cruise",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "CX",
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Preview",
+      "Classic",
+      "Select",
+      "Elite",
+      "Elite Plus",
+      "Zenith"
+    ],
+    "program_url": "https://www.celebritycruises.com/int/captains-club/tiers-and-benefits",
+    "enrollment_url": "https://www.celebritycruises.com/int/captains-club/join-the-club",
+    "last_verified": "2026-03-24",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "amtrak_guest_rewards",
+    "program_name": "Guest Rewards",
+    "brand_name": "Amtrak",
+    "sub_brands": null,
+    "category": "Rail",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "2V",
+    "member_number_regex": "^\\d{10}$",
+    "member_number_example": "1234567890",
+    "tiers": [
+      "Member",
+      "Select",
+      "Select Plus",
+      "Select Executive"
+    ],
+    "program_url": "https://www.amtrak.com/guestrewards/home",
+    "enrollment_url": "https://login.amtrak.com/amtrakb2c.onmicrosoft.com/b2c_1a_webapp_signup/oauth2/v2.0/authorize?client_id=ec980023-428b-40aa-8fdb-35348b059799&scope=openid%20offline_access%20email%20profile%20https%3A%2F%2Flogin.amtrak.com%2Fapi%2Fprofile.readwrite%20openid%20profile&redirect_uri=https%3A%2F%2Fwww.amtrak.com%2Fguestrewards%2Fhome&client-request-id=8b9f9464-3061-4802-87ff-721e76b80797&response_mode=fragment&response_type=code&x-client-SKU=msal.js.browser&x-client-VER=2.6.1&x-client-OS=&x-client-CPU=&client_info=1&code_challenge=LGOOulWwrJM_ZhSeg5kyMgYJVkMSktZZmK3cbtX_PaQ&code_challenge_method=S256&nonce=71ad75d5-316d-4bb0-ad90-0b73fda0f402&state=eyJpZCI6ImZkYTU3MGUyLTRhZDgtNDQzMi1iM2VlLWRlNWI0NGRmY2E1YSIsInRzIjoxNzc0ODc0ODY0LCJtZXRhIjp7ImludGVyYWN0aW9uVHlwZSI6InJlZGlyZWN0In19&ui_locales=en&ch=Amtrak.com&vn=4.0.8&app=AND&trcid=14c62ef34246444c7849ef64d4a81c3212d21774874768958&prompt=login&pc=&promo=&ec=agrhome&tcv=3.2.16",
+    "last_verified": "2026-03-30",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "eurostar_club",
+    "program_name": "Club Eurostar",
+    "brand_name": "Eurostar",
+    "sub_brands": null,
+    "category": "Rail",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "9F",
+    "member_number_regex": "^\\d{17}$",
+    "member_number_example": "12345678901234567",
+    "tiers": [
+      "Classique",
+      "Advantage",
+      "Carte Blanche",
+      "Etoile"
+    ],
+    "program_url": "https://www.eurostar.com/us-en/club-eurostar",
+    "enrollment_url": "https://www.eurostar.com/login/en/register?market=us-en",
+    "last_verified": "2026-03-30",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "deutsche_bahn_bahnbonus",
+    "program_name": "BahnBonus",
+    "brand_name": "Deutsche Bahn",
+    "sub_brands": null,
+    "category": "Rail",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "9B",
+    "member_number_regex": "^\\d{16}$",
+    "member_number_example": "1234567890123456",
+    "tiers": [
+      "Silver",
+      "Gold",
+      "Platinum"
+    ],
+    "program_url": "https://int.bahn.de/en/booking-information/bahnbonus",
+    "enrollment_url": "https://www.bahn.de/service/bahnbonus",
+    "last_verified": "2026-03-30",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "trenitalia_cartafreccia",
+    "program_name": "CartaFRECCIA",
+    "brand_name": "Trenitalia",
+    "sub_brands": null,
+    "category": "Rail",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "9B",
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Argento",
+      "Oro",
+      "Platino"
+    ],
+    "program_url": "https://www.thetrainline.com/en-us/train-companies/trenitalia/cartafreccia?gad_source=1&gad_campaignid=20533850876&gbraid=0AAAAADobjhYysD99ZEwwHgHipMgFCF3RM&gclid=CjwKCAjwvqjOBhAGEiwAngeQnSvU_MVfRyRId_Io2YHb5nMdc51BDv7Rc1rgIorkf01h0TURXUrd3xoCAvgQAvD_BwE",
+    "enrollment_url": "https://www.lefrecce.it/Channels.Website.WEB/?programSelected=2#/user-new-registration?programSelected=2",
+    "last_verified": "2026-03-30",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "sncf_grand_voyageur",
+    "program_name": "Grand Voyageur",
+    "brand_name": "SNCF",
+    "sub_brands": null,
+    "category": "Rail",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "2C",
+    "member_number_regex": "^\\d{9}$",
+    "member_number_example": "123456789",
+    "tiers": [
+      "Grand Voyageur",
+      "Grand Voyageur Le Club",
+      "Grand Voyageur Le Club Haute Frequence"
+    ],
+    "program_url": "https://www.sncf-voyageurs.com/fr/voyagez-avec-nous/notre-programme-de-fidelite/le-programme-grand-voyageur/",
+    "enrollment_url": null,
+    "last_verified": "2026-03-30",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "obb_vorzugspunkte",
+    "program_name": "ÖBB VorZUGspunkte",
+    "brand_name": "OBB",
+    "sub_brands": null,
+    "category": "Rail",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "9B",
+    "member_number_regex": "^\\d{16}$",
+    "member_number_example": "1234567890123456",
+    "tiers": [
+      "Standard",
+      "Gold"
+    ],
+    "program_url": "https://www.oebb.at/en/vorzugspunkte",
+    "enrollment_url": "https://shop.oebbtickets.at/en/ticket?cmd=customerRegistration",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  },
+  {
+    "slug": "iryo_club_yo",
+    "program_name": "Club Yo",
+    "brand_name": "Iryo",
+    "sub_brands": null,
+    "category": "Rail",
+    "sub_category": "Full Service",
+    "currency_name": "Points",
+    "iata_icao_code": null,
+    "gds_code": "9B",
+    "member_number_regex": "^[A-Z]{4}\\d{6}$",
+    "member_number_example": "ABCD123456",
+    "tiers": [
+      "Yo",
+      "Singular",
+      "Infinita"
+    ],
+    "program_url": "https://iryo.eu/es/club-yo",
+    "enrollment_url": "https://auth.iryo.eu/auth/realms/ilsa/protocol/openid-connect/registrations?client_id=b2c&redirect_uri=https%3A%2F%2Firyo.eu%2Fes%2Fclub-yo%3Fclient%3DeyJjbGllbnRJZCI6ImIyYyIsImNoYW5uZWwiOiIiLCJpc1JlcXVlc3RQYXJhbSI6dHJ1ZX0%253D&state=59964a3b-da95-4f1b-8ac8-d1fa1ccad754&response_mode=query&response_type=code&scope=openid&nonce=b171766a-7f22-4eb7-a9f5-dd61c4e0b66b&code_challenge=_1tjwXTi_8YGHzm3dF3iVuGpWXA9Z5wrXb2D9NbxuOI&code_challenge_method=S256",
+    "last_verified": "2026-03-31",
+    "alliance": null,
+    "active": true
+  }
+]

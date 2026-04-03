@@ -1,0 +1,37 @@
+# Environment variables — NEVER commit this
+.env
+
+# Python virtual environment — large, not needed in repo
+venv/
+env/
+.venv/
+
+# Python cache files — auto-generated, not needed
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+convert.py
+
+# OS-generated files
+.DS_Store          # Mac
+Thumbs.db          # Windows
+desktop.ini        # Windows
+
+# VS Code settings — optional, personal preference
+.vscode/
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+*.csv
