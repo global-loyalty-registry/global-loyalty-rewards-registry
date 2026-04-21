@@ -16,8 +16,8 @@ security = HTTPBearer()
 app = FastAPI(
     title="Global Loyalty & Rewards Registry",
     description="""
-A structured reference API for the global travel and lifestyle rewards ecosystem.
-Covers airlines, hotels, car rental, credit cards, cruise, and rail.
+A structured reference API and validation engine for the global travel and lifestyle rewards ecosystem. 
+Providing real-time schema validation across suppliers, including: Airlines, Hotels, Rail, Car Rental, Credit Cards, and Cruise Lines.
 
 **Designed for agentic AI consumption.** Every field is strictly typed and described.
 Null values are always returned explicitly — never omitted.
@@ -85,6 +85,12 @@ class ValidationResult(BaseModel):
     member_number: str = Field(description="The member number submitted")
     member_number_example: Optional[str] = Field(description="A valid example format to guide the user.")
 
+class SearchResult(BaseModel):
+    count: int = Field(description="Number of programs matched by the query")
+    query: str = Field(description="The search term that was submitted")
+    matched_on: list[str] = Field(description="Which fields produced matches: brand_name, iata_icao_code, and/or gds_code")
+    programs: list[LoyaltyProgram] = Field(description="All programs that matched the query across any of the three searchable fields")
+
 # ── Endpoints ─────────────────────────────────────────────────
 @app.get("/", tags=["Health"])
 def root():
@@ -122,6 +128,80 @@ def list_programs(
             )
 
     return {"count": len(results), "programs": results}
+
+@app.get(
+    "/programs/search",
+    response_model=SearchResult,
+    tags=["Programs"],
+    summary="Search programs by brand name, IATA code, or GDS code",
+    description="""Find loyalty programs without knowing the slug.
+
+Pass any of the following as the `q` parameter:
+- **Brand name** (full or partial): `American Airlines`, `Marriott`, `Hertz`
+- **IATA carrier code**: `AA`, `UA`, `LH`, `EK`
+- **GDS chain code**: `MC` (Marriott), `HH` (Hilton), `ZE` (Hertz)
+
+Search is case-insensitive. Partial brand name matches are supported.
+Returns all programs that match across any of the three fields.
+Use the `matched_on` field in the response to understand which field(s) produced the match."""
+)
+def search_programs(
+    q: str = Query(..., description="Search term: a brand name (full or partial), IATA code (e.g. AA), or GDS code (e.g. MC)"),
+    active_only: bool = Query(True, description="When true (default), only returns active programs"),
+    _: str = Depends(verify_api_key)
+):
+    q_clean = q.strip()
+    q_lower = q_clean.lower()
+
+    if not q_clean:
+        raise HTTPException(status_code=400, detail="Query parameter 'q' cannot be empty")
+
+    brand_matches = []
+    iata_matches = []
+    gds_matches = []
+
+    pool = [p for p in PROGRAMS if p.get("active") is True] if active_only else PROGRAMS
+
+    for program in pool:
+        # Match brand_name (case-insensitive partial)
+        brand = (program.get("brand_name") or "").lower()
+        if q_lower in brand:
+            brand_matches.append(program)
+            continue
+
+        # Match iata_icao_code (exact, case-insensitive, any code in array)
+        iata_codes = program.get("iata_icao_code") or []
+        if any(q_clean.upper() == code.upper() for code in iata_codes):
+            iata_matches.append(program)
+            continue
+
+        # Match gds_code (exact, case-insensitive)
+        gds = (program.get("gds_code") or "").upper()
+        if q_clean.upper() == gds:
+            gds_matches.append(program)
+            continue
+    all_results = brand_matches + iata_matches + gds_matches
+
+    matched_on = []
+    if brand_matches:
+        matched_on.append("brand_name")
+    if iata_matches:
+        matched_on.append("iata_icao_code")
+    if gds_matches:
+        matched_on.append("gds_code")
+
+    if not all_results:
+        raise HTTPException(
+            status_code=404,
+            detail=f"No programs found matching '{q_clean}'. Try a brand name (e.g. 'United Airlines'), IATA code (e.g. 'UA'), or GDS code (e.g. 'ZE')."
+        )
+
+    return {
+        "count": len(all_results),
+        "query": q_clean,
+        "matched_on": matched_on,
+        "programs": all_results
+    }
 
 
 @app.get("/programs/{slug}", response_model=LoyaltyProgram, tags=["Programs"],
