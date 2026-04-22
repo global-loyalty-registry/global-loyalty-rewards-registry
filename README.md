@@ -29,7 +29,7 @@ The fastest way to test the registry is via our interactive documentation.
 
 ### 🛠 Local Development & Contributions
 If you wish to clone the registry, run it locally, or contribute to the schema:
-1. **Clone**: `git clone https://github.com/global-loyalty-registry/global-loyalty-rewards-registry.git`
+1. **Clone**: `git clone https://github.com/global-loyalty-registry/registry-api.git`
 2. **Setup**: `cp .env.example .env`
 3. **Install**: `pip install -r requirements.txt`
 4. **Run**: `uvicorn main:app --reload`
